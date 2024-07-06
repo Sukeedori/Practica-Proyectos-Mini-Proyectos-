@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <title>Platform UI</title>
+    <link rel="icon" type="image/png" href="assets/logo_page.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-section">
+        <div class="sidebar">
+            <h2>System</h2>
+
+            <div class="item active">
+                <i class="ri-apps-fill"></i>
+                <h3>Dashboard</h3>
+            </div>
+            <div class="item">
+                <i class="ri-folder-3-line"></i>
+                <h3>Your Files</h3>
+            </div>
+            <div class="item">
+                <i class="ri-hard-drive-3-fill"></i>
+                <h3>Your Disks</h3>
+            </div>
+            <div class="item">
+                <i class="ri-folder-lock-line"></i>
+                <h3>Protected</h3>
+            </div>
+            <div class="item">
+                <i class="ri-heart-2-line"></i>
+                <h3>Favorites</h3>
+            </div>
+            <div class="item">
+                <i class="ri-delete-bin-6-line"></i>
+                <h3>Trash</h3>
+            </div>
+            <div class="item">
+                <i class="ri-settings-4-line"></i>
+                <h3>Settings</h3>
+            </div>
+        </div>
+
+        <div class="sing-out">
+            <i class="ri-logout-box-line"></i>
+            <h3>Sing Out</h3>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <div class="search">
+                <button><i class="ri-search-line"></i></button>
+                <input type="text" placeholder="search">
+                <i class="ri-equalizer-line"></i>
+            </div>
+            <div class="icon-btns">
+                <i class="ri-notification-3-line"></i>
+                <i class="ri-message-3-line"></i>
+                <i class="ri-menu-line" id="menu-btn"></i>
+            </div>
+        </div>
+
+        <h3 class="separator">
+            Quick Access
+        </h3>
+
+        <div class="quick-access">
+            <div class="item">
+                <i class="ri-image-fill"></i>
+                <h5>Pictures</h5>
+                <p>437/500 files</p>
+            </div>
+            <div class="item">
+                <i class="ri-file-3-line"></i>
+                <h5>Documents</h5>
+                <p>210/500 files</p>
+            </div>
+            <div class="item">
+                <i class="ri-mv-fill"></i>
+                <h5>Sounds</h5>
+                <p>90/1000 files</p>
+            </div>
+            <div class="item">
+                <i class="ri-video-on-fill"></i>
+                <h5>Videos</h5>
+                <p>540/800 files</p>
+            </div>
+        </div>
+
+        <h3 class="separator">
+            Recent
+        </h3>
+
+        <table>
+            <tbody>
+                <tr class="selected">
+                    <td class="icon"><i class="ri-image-fill"></i></td>
+                    <td class="name">IMG_example.jpg</td>
+                    <td class="extension">PNG File</td>
+                    <td class="size">2.7 MB</td>
+                    <td class="more"><i class="ri-more-line"></i></td>
+                </tr>
+
+                <tr>
+                    <td class="icon"><i class="ri-file-3-line"></i></td>
+                    <td class="name">Example.docx</td>
+                    <td class="extension">DOCX File</td>
+                    <td class="size">5.7 MB</td>
+                    <td class="more"><i class="ri-more-line"></i></td>
+                </tr>
+
+                <tr>
+                    <td class="icon"><i class="ri-mv-fill"></i></td>
+                    <td class="name">Eve-Outsider.mp3</td>
+                    <td class="extension">MP3 File</td>
+                    <td class="size">3.6 MB</td>
+                    <td class="more"><i class="ri-more-line"></i></td>
+                </tr>
+
+                <tr>
+                    <td class="icon"><i class="ri-video-on-fill"></i></td>
+                    <td class="name">Myvideo.mp4</td>
+                    <td class="extension">MP4 File</td>
+                    <td class="size">24.5 MB</td>
+                    <td class="more"><i class="ri-more-line"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="right-section">
+        <div class="profile">
+            <div class="info">
+                <img src="assets/icon_author.png">
+                <div class="account">
+                    <h5>Sukeedori</h5>
+                    <p>example123@gmail.com</p>
+                </div>
+            </div>
+            <i class="ri-arrow-down-s-line"></i>
+        </div>
+
+        <div class="widgets">
+            <div class="disk">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+                <div class="info">
+                    <h5><span>750</span> GB Free<span> / 1</span> TB</h5>
+                    <p>Available Storage</p>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <button>New Upload <i class="ri-add-line"></i></button>
+                <div class="premium">
+                    <div class="title">
+                        <i class="ri-folder-add-line"></i>
+                        <h5>Buy Premium</h5>
+                    </div>
+                    <p>Upgrade space now and get a 18% discount</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
